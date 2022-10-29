@@ -1,8 +1,12 @@
-.connect{
-    text-align: center;
-    /* background: rgb(21,0,36);
-    background: linear-gradient(125deg, rgba(21,0,36,1) 0%, rgba(153,23,172,1) 43%, rgba(255,85,0,1) 100%); */
-  }
+.secondP{
+text-align: center;
+
+top: 0ch;  
+
+ 
+}
+
+ 
 
 
 .n-button {
@@ -12,4 +16,7 @@
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(199,148,233,1) 100%);
     border-radius: 30px;
     border-color: antiquewhite;
+    height:5vh;
+    font-size: 16px;
+   
 }
