@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+.button {
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(199,148,233,1) 100%);
+  box-shadow: 0px 20px 24px 3px rgba(227, 234, 238, 0.42);
+  border-radius: 34px;
+  border:antiquewhite;
+  color: rgb(11 50 239);
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+
+}
+.button:hover {
+  background: rgb(214, 13, 214);
+  cursor: pointer;
+  /* border: 1px solid var(--orange);
+  color: var(--orange); */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -46,17 +46,18 @@
 
 .link {
   text-decoration: none;
+  
   color: currentColor;
 }
 
 .n-list > ul :hover {
-  color: var(--pink);
+  color : rgb(224, 79, 181);
   cursor: pointer;
 }
 
 .n-button {
   flex: 1;
-    color: rgb(62, 26, 221);
+    color: rgb(223, 93, 6);
     background: rgb(212, 170, 188);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(199,148,233,1) 100%);
     border-radius: 30px;

@@ -34,7 +34,7 @@ const ConnectNft = () => {
       <MyNavbar />
       <div className="secondP">
         <p>{account}</p>
-        <button className="n-button" onClick={connect}>
+        <button className="button n-button" onClick={connect}>
           Connect
         </button>
         {data.map((nft) => {
