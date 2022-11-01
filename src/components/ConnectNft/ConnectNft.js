@@ -37,9 +37,9 @@ const ConnectNft = () => {
         <button className="button n-button" onClick={connect}>
           Connect
         </button>
-        {data.map((nft) => {
+        {data.map((nft, index) => {
           return (
-            <div key={nft.index}>
+            <div key={index}>
               <img src={nft.image_url} alt={"nft.im"} />
               <p>{nft.name}</p>
               <p>{nft.id}</p>

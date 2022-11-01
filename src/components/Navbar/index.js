@@ -23,22 +23,22 @@ const MyNavbar = () => {
           <div className="n-list">
             <ul style={{ listStyleType: "none" }}>
               <li>
-                <Link className="link" to="/" spy={true} smooth={true}>
+                <Link className="link" to="/" >
                   Home
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/whatisnft" spy={true} smooth={true}>
+                <Link className="link" to="/whatisnft" >
                   What is NFT
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/explore" spy={true} smooth={true}>
+                <Link className="link" to="/explore">
                   Explore
                 </Link>
               </li>
               <li>
-                <Link className="link" to="/buynft" spy={true} smooth={true}>
+                <Link className="link" to="/buynft" >
                   Buy NFT
                 </Link>
               </li>
@@ -46,7 +46,7 @@ const MyNavbar = () => {
           </div>
         </div>
         <div>
-          <Link to="/connect" spy={true} smooth={true}>
+          <Link to="/connect" >
             <button  className="button n-button">Connect</button>
           </Link>
         </div>

@@ -1,11 +1,11 @@
 import React from 'react'
-import CartNft from '../CartNft/Cart'
+import CardNft from '../CardNft/Card'
 
 const ContainerNfts = ({nfts}) => {
   return (
-    <div>
+    <div className='nft-container' >
         {nfts.map((nft, index)=>{
-            return <CartNft nft={nft} key={index} />
+            return <CardNft nft={nft} key={index} />
         })};
     </div>
   )
