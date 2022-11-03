@@ -6,6 +6,8 @@ import Explore from './components/Pages/Explore/Explore';
 import BuyNft from './components/Pages/BuyNft/BuyNft';
 
 
+
+
 function App() {
 
 
@@ -23,7 +25,10 @@ function App() {
 
 		
 		</React.Fragment>
+	
   );
 }
 
 export default App;
+
+
