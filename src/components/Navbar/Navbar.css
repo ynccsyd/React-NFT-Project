@@ -1,5 +1,52 @@
+.w-32{
+  width: 8rem;
+  
+  
+}
+.div-m {
+  position: relative;
+  width:10vh;
+  margin-right: 3rem;
+
+}
+.image {
+ width: 100%;
+ height: auto;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay-m {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+  cursor: pointer;
+  
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.div-m:hover .overlay-m {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text-icon{
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .n-wrapper {
-  height: 10vh;
+  height: 15vh;
   display: flex;
   justify-content: space-between;
   top: 0;
@@ -38,9 +85,9 @@
 }
 .n-list > ul {
   display: flex;
-  gap: 4rem;
-  margin-right: 1rem;
+  gap: 2rem;
   color: antiquewhite;
+  
   
 }
 
@@ -50,24 +97,12 @@
   color: currentColor;
 }
 
-.n-list > ul :hover {
+.n-list > li :hover {
   color : rgb(224, 79, 181);
   cursor: pointer;
 }
 
-.n-button {
-  flex: 1;
-    color: rgb(223, 93, 6);
-    background: rgb(212, 170, 188);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(199,148,233,1) 100%);
-    border-radius: 30px;
-    border-color: antiquewhite;
-    height:5vh;
-    font-size: 16px;
-    margin-top: 1em;
-    margin-right: 2em;
- 
-}
+
 
 @media screen and (max-width: 480px) {
   .n-list {

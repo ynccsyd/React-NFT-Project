@@ -1,5 +1,5 @@
 import React from 'react'
-import ConnectNft from "../../ConnectNft/ConnectNft"
+import ConnectNft from "../../components/ConnectNft/ConnectNft"
 
 const Explore = () => {
   return (

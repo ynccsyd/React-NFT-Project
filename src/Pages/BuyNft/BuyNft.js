@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import React from 'react'
-import ContainerNfts from "../../ContainerNfts/ContainerNfts"
-import MyNavbar from '../../Navbar'
+import ContainerNfts from "../../components/ContainerNfts/ContainerNfts"
+import MyNavbar from '../../components/Navbar'
 import "./buy.css";
 
 
@@ -9,16 +9,16 @@ const BuyNft = () => {
   const [nfts, setNfts]=useState([]);
   const[address, setAddress]=useState(null);
 
-  const ConnectWallet= async()=>{
-    if (typeof window.ethereum !== 'undefined') {
+  // const ConnectWallet= async()=>{
+  //   if (typeof window.ethereum !== 'undefined') {
 
-      // console.log('MetaMask is installed!');
-      const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
-      setAddress(accounts[0])
+  //     // console.log('MetaMask is installed!');
+  //     const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+  //     setAddress(accounts[0])
       
-    }
+  //   }
 
-  }
+  // }
 
    const getNftData=async()=>{
       const response=await fetch(" https://api.rarible.org/v0.1/items/byOwner/?owner=ETHEREUM:0x4765273c477c2dc484da4f1984639e943adccfeb");
@@ -36,11 +36,11 @@ const BuyNft = () => {
   return (
     <div>
       <MyNavbar/>
-      <div>
+      {/* <div>
         <button className="n-button"  onClick={ConnectWallet}>
           Connect
         </button>
-      </div>
+      </div> */}
       <ContainerNfts nfts={nfts} />
       {/* {nfts.map((nft, index) => {
           return (

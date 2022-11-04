@@ -1,9 +1,9 @@
 import React from 'react';
 import "./App.css";
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-import HomePage from './components/Pages/HomePage/HomePage';
-import Explore from './components/Pages/Explore/Explore';
-import BuyNft from './components/Pages/BuyNft/BuyNft';
+import HomePage from './Pages/HomePage/HomePage';
+import Explore from './Pages/Explore/Explore';
+import BuyNft from './Pages/BuyNft/BuyNft';
 
 
 
