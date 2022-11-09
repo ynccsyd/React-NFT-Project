@@ -4,6 +4,7 @@ import Logo from "../images/crypto-camera.png";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import MetamaskIcon from "../images/metamask.png";
+import Button from "../Button/index";
 
 const MyNavbar = () => {
   const [address, setAddress] = useState(null);
@@ -23,7 +24,6 @@ const MyNavbar = () => {
         {/* left */}
         <div className="n-left">
           <div className="n-name">NFTMarket</div>
-
           <a href="/" className="lg:col-span-1 col-span-2">
             <img src={Logo} alt="Logo" className="w-32" />
           </a>
@@ -54,7 +54,7 @@ const MyNavbar = () => {
               </li>
             </ul>
           </div>
-          <Link to="/buynft" >
+          <Link to="/buynft">
             <div className="div-m">
               <img
                 className="image"

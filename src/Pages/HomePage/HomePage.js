@@ -8,6 +8,7 @@ import CarouselNft from "../../components/Carousel/Carousel"
 
 
 
+
 const HomePage = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const HomePage = () => {
       {/* <SIntro/> */}
       <img src=''></img>
       <CarouselNft/>
+      
     
       <Footer/>
     </div>

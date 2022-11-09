@@ -10,23 +10,39 @@
 }
 
 .button {
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(199,148,233,1) 100%);
-  box-shadow: 0px 20px 24px 3px rgba(227, 234, 238, 0.42);
+  
+  
   border-radius: 34px;
-  border:antiquewhite;
-  color: rgb(11 50 239);
-  font-size: 12px;
-  padding: 12px 20px 12px 20px;
+  
+  
   text-align: center;
+  padding: 10px 45px;
+  font-size: 20px;
+  font-weight: 600;
+  width: max-content;
+  cursor: pointer;
+}
   
-  
+.primary-btn{
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(199,148,233,1) 100%);
+  color:  rgb(11 50 239);
+  box-shadow: 0px 20px 24px 3px rgba(227, 234, 238, 0.42);
+}
+.secondary-btn{
+  border: 1px solid;
+  box-shadow: 0px 20px 24px 3px rgba(227, 234, 238, 0.42);
+  color:antiquewhite;
 
 }
-.button:hover {
+
+
+
+.primary-btn:hover {
   background: rgb(214, 13, 214);
   cursor: pointer;
 
 }
+
 
 @media screen and (max-width: 480px) {
   .App {

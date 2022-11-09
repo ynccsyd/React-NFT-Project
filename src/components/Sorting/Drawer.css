@@ -1,0 +1,24 @@
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+    top: auto;
+    color: antiquewhite;
+    background-color: transparent;
+    z-index: 100 !important;
+}
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-zxtyt4-MuiPaper-root-MuiAppBar-root {
+    margin-top: 15vh;
+    /* top: none; */
+    z-index: 100 !important;
+}
+.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters.MuiListItemButton-root.MuiListItemButton-gutters.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
+    color: rgb(253, 156, 29);
+    z-index: 100 !important;
+}
+.css-jzppkm-MuiPaper-root-MuiAppBar-root {
+    top: auto !important;
+    z-index: 100 !important;
+}
+div#nested-list-subheader {
+    color: antiquewhite;
+    background: transparent;
+    font-size: 25px;
+}

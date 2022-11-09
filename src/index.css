@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  height: 500vh;
+ 
   background: rgb(21,0,36);
   background: linear-gradient(90deg, rgba(21,0,36,1) 0%, rgba(153,23,172,1) 43%, rgba(255,85,0,1) 100%);
 }
