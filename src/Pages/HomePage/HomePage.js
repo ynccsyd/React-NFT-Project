@@ -2,8 +2,9 @@ import React from 'react'
 import MyNavbar from "../../components/Navbar/index"
 import Footer from "../../components/Footer/Footer"
 import Intro from '../../components/Intro/Intro'
+import Info from '../../components/Info/Info'
 import CarouselNft from "../../components/Carousel/Carousel"
-// import SIntro from "../../components/SIntro/SIntro"
+
 
 
 
@@ -14,8 +15,7 @@ const HomePage = () => {
     <div>
       <MyNavbar/>
       <Intro/>
-      {/* <SIntro/> */}
-      <img src=''></img>
+      <Info/>
       <CarouselNft/>
       
     

@@ -30,13 +30,7 @@ export default function Footer() {
                 {/* <MDBIcon icon="gem" className="me-3" /> */}
                 NFTMarket
               </h6>
-              <img src={Icons} alt="icon" width={200}/>
-             
-              {/* <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p> */}
+              <img src={Icons} alt="icon" width={200} />
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
@@ -69,12 +63,11 @@ export default function Footer() {
                 <Github color="white" size={"3rem"} />
               </a>
               <a href="linkedin.com/in/seydayoncaci" className="text-reset">
-                <Linkedln color="white" size={"3rem"}  />
+                <Linkedln color="white" size={"3rem"} />
               </a>
               <a href="#!" className="text-reset">
-                <Insta color="white" size={"3rem"}  />
+                <Insta color="white" size={"3rem"} />
               </a>
-              
             </MDBCol>
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
@@ -89,7 +82,6 @@ export default function Footer() {
               <MDBBtn outline color="light" type="submit" className="mb-4">
                 Subscribe
               </MDBBtn>
-               
             </MDBCol>
           </MDBRow>
         </MDBContainer>
@@ -107,5 +99,3 @@ export default function Footer() {
     </MDBFooter>
   );
 }
-
-
