@@ -1,0 +1,50 @@
+/* .MuiBox-root.css-i9gxme {
+    margin-top: 12rem;
+   padding-left: 4rem;
+   padding-right: 4rem;
+    
+} */
+.roadmap{
+    margin-top: 12rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+}
+
+p.step_1 {
+   margin-left: 5rem;
+   margin-right: 5rem;
+    border-radius: 1rem;
+    background-color: palevioletred;
+    color:rgb(77, 97, 209);
+   
+    
+}
+
+p.step_2 {
+    margin-left: 5rem;
+   margin-right: 5rem;
+     border-radius: 1rem;
+     background-color: rgb(206, 203, 22);
+     color:rgb(149, 5, 216);
+    
+     
+ }
+ p.step_3 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+     border-radius: 1rem;
+     background-color: rgb(204, 164, 54);
+     color:rgb(39, 36, 228);
+    
+     
+ }
+ p.step_4 {
+    margin-left: 5rem;
+   margin-right: 5rem;
+     border-radius: 1rem;
+     background-color: rgb(159, 114, 231);
+     color:rgb(232, 231, 248);
+    
+     
+ }

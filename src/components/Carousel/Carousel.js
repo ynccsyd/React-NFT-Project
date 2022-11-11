@@ -3,7 +3,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.min.css";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.min.css"
-import Heading from "./Heading";
+import Heading from "../Heading/Heading";
 import "./Carousel.css"
 
 

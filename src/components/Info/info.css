@@ -51,17 +51,17 @@
 
 .info-right-bg{
     height: 550px;
-    width: 550px;
+    width: 800px;
     background-color: rgb(7, 153, 158);
-    filter: blur(100.58px);
+    filter: blur(180.58px);
     position: absolute;
     z-index: -99;
     left: 200px;
     top:0% ;
-    transform: translate(-40%);
-    -webkit-transform: translate(-40%);
-    -moz-transform: translate(-40%);
-    -ms-transform: translate(-40%);
-    -o-transform: translate(-40%);
-    -webkit-filter: blur(100.58px);
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    -webkit-filter: blur(180.58px);
 }

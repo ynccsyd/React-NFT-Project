@@ -1,30 +1,4 @@
-.m-head {
-    display: flex;
-    margin-bottom: 3rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-
-}
-
-.m-title {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    font-weight: 700;
-    letter-spacing: 0.025em;
-    color: antiquewhite;
-    
-}
-
-.m-border {
-    margin-top: 0.5rem;
-    width: 20rem;
-    height: 0.25rem;
-    border-width: 0;
-    background-color: rgb(231, 41, 73);
-
-}
 .c-div {
     margin-top: 10rem/* 48px */;
     margin-bottom: 3rem/* 48px */;

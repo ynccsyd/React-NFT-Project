@@ -4,7 +4,8 @@ import Logo from "../images/crypto-camera.png";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import MetamaskIcon from "../images/metamask.png";
-import Button from "../Button/index";
+// import Button from "../Button/index";
+
 
 const MyNavbar = () => {
   const [address, setAddress] = useState(null);

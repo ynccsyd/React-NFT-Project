@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
 import Icons from "../images/man-showing.png";
+// import SocialMedia from "../images/social-media-influencer.gif"
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Github from "@iconscout/react-unicons/icons/uil-github";
 import Linkedln from "@iconscout/react-unicons/icons/uil-linkedin";
@@ -67,7 +68,9 @@ export default function Footer() {
               </a>
               <a href="#!" className="text-reset">
                 <Insta color="white" size={"3rem"} />
+                {/* <img src={SocialMedia} alt="social" width="80%" /> */}
               </a>
+
             </MDBCol>
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">

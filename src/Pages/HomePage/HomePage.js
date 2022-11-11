@@ -2,8 +2,11 @@ import React from 'react'
 import MyNavbar from "../../components/Navbar/index"
 import Footer from "../../components/Footer/Footer"
 import Intro from '../../components/Intro/Intro'
+import RoadMap from "../../components/RoadMap/RoadMap"
 import Info from '../../components/Info/Info'
 import CarouselNft from "../../components/Carousel/Carousel"
+import NftWallets from '../../components/Wallets/Wallets'
+
 
 
 
@@ -15,7 +18,9 @@ const HomePage = () => {
     <div>
       <MyNavbar/>
       <Intro/>
+      <RoadMap/>
       <Info/>
+      <NftWallets/>
       <CarouselNft/>
       
     
