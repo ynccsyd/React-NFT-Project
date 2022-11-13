@@ -1,17 +1,38 @@
 import React from 'react'
+import Ethereum from "../images/ethereum.png"
+import "./card.css"
 
 
 
 const CardNft = ({nft }) => {
   return (
-    <div className=' card nft-card' >
-      <p className="yazi">{nft.id}</p>
-      <p className="yazi">{nft?.meta?.name}</p>
-         
-      <img src={nft?.meta?.content[0]?.url} alt="nfts" className="imgnft" width={nft?.meta?.content[0]?.width} height={nft?.meta?.content[0]?.height}/>
+    
+    <div  className="nft-card ">
+      <div className="inner-wrapper">
+        <div className="content">
+          <img
+            src={nft?.meta?.content[0]?.url}
+            alt={nft?.meta?.name}
+            className="imgnft"
+          />
+          <div className="nft-info">
+            <div className="nft-info-l">
+              <div className="nft-info-name">{nft?.meta?.name}</div>
+              <p className="price-tag" >
+                {nft?.lastSale?.price} 
+                ETH
+                <img src={Ethereum} alt="eth logo" className="ethereum-logo" />
+              </p>
+              
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
       
     </div>
-  )
+  );
 }
 
 export default CardNft

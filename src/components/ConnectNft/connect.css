@@ -1,8 +1,10 @@
 .secondP{
-text-align: center;
-
-top: 0ch;  
-
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    gap:3rem;  
+margin-left: 3rem;
+margin-right: 3rem;
  
 }
 

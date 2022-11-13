@@ -32,21 +32,23 @@ const ConnectNft = () => {
   return (
     <div>
       <MyNavbar />
-      <div className="secondP">
+      <div >
         <p>{account}</p>
         <button className="button n-button" onClick={connect}>
           Connect
         </button>
-        {data.map((nft, index) => {
-          return (
-            <div key={index}>
-              <img src={nft.image_url} alt={"nft.im"} />
-              <p>{nft.name}</p>
-              <p>{nft.id}</p>
-              <p>{nft.asset_contract.opensea_seller_fee_basis_points}</p>
-            </div>
-          );
-        })}
+        <div className="secondP">
+          {data.map((nft, index) => {
+            return (
+              <div key={index}>
+                <img src={nft.image_url} alt={"nft.im"} />
+                <p>{nft.name}</p>
+                <p>{nft.id}</p>
+                <p>{nft.asset_contract.opensea_seller_fee_basis_points}</p>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
