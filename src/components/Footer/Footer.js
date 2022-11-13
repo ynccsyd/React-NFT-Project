@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
 import Icons from "../images/man-showing.png";
+import MessageSmile from "../images/customer-service-chat.gif"
 // import SocialMedia from "../images/social-media-influencer.gif"
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Github from "@iconscout/react-unicons/icons/uil-github";
@@ -70,7 +71,6 @@ export default function Footer() {
                 <Insta color="white" size={"3rem"} />
                 {/* <img src={SocialMedia} alt="social" width="80%" /> */}
               </a>
-
             </MDBCol>
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
@@ -82,9 +82,13 @@ export default function Footer() {
                 label="Email address"
                 className="mb-4"
               />
-              <MDBBtn outline color="light" type="submit" className="mb-4">
-                Subscribe
-              </MDBBtn>
+              <div className="subscribe">
+                <MDBBtn outline color="light" type="submit" className="mb-3">
+                  Subscribe
+                </MDBBtn>
+                <img src={MessageSmile} className="smileImage"  alt= "smileChatgif"/>
+              </div>
+             
             </MDBCol>
           </MDBRow>
         </MDBContainer>

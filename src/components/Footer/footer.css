@@ -18,3 +18,15 @@
     -webkit-text-stroke: 4px transparent;
     -webkit-text-fill-color:black;
   }
+
+  .subscribe{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    /* position: relative; */
+   
+  }
+
+  .smileImage{
+    width:40% ;
+    top: 0;
+  }

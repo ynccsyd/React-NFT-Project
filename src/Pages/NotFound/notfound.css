@@ -1,0 +1,7 @@
+
+.notimage> :nth-child(1)
+{
+  
+   margin: auto;
+   width: 65%;
+}
