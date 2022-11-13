@@ -16,6 +16,7 @@ import MailIcon from "@mui/icons-material/Mail";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
+// import Checkboxfilter from "./CheckBox"
 
 import ListSubheader from "@mui/material/ListSubheader";
 
@@ -66,6 +67,7 @@ function ResponsiveDrawer(props) {
         }
       >
         <Filter />
+        {/* <Checkboxfilter/> */}
       </List>
       <Divider />
       <List>
@@ -106,7 +108,7 @@ function ResponsiveDrawer(props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div">
+          <Typography variant="h6" noWrap component="div" >
             Responsive drawer
           </Typography>
         </Toolbar>

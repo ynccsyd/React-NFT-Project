@@ -8,14 +8,14 @@ import CheckBoxIcon from '@mui/icons-material/CheckBox';
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
 const checkedIcon = <CheckBoxIcon fontSize="small" />;
 
-export default function CheckboxesTags() {
+export default function CheckboxesTags({nftFilter }) {
   return (
     <Autocomplete
       multiple
       id="checkboxes-tags-demo"
-      options={top100Films}
+      options={nftFilter}
       disableCloseOnSelect
-      getOptionLabel={(option) => option.title}
+      getOptionLabel={(option) => option.value}
       renderOption={(props, option, { selected }) => (
         <li {...props}>
           <Checkbox
@@ -24,7 +24,7 @@ export default function CheckboxesTags() {
             style={{ marginRight: 8 }}
             checked={selected}
           />
-          {option.title}
+          {option.key}
         </li>
       )}
       style={{ width: 500 }}

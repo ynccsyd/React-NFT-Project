@@ -30,7 +30,7 @@ export default function AutoGrid() {
             <Item sx={{ bgcolor: "#62d9bd" }}  >
               <img src={Discover} alt="step1"  />
               <p className="step_1">Step 1</p>
-              <p>Filter & Discover</p>
+              <p style={{color:' #eb2915' , fontSize: 'large' }}>Filter & Discover</p>
              
             </Item>
           </Grid>
@@ -39,7 +39,7 @@ export default function AutoGrid() {
               <img src={Wallet} alt="step2"/>
               {/* <img src={Wallets} alt="" /> */}
               <p className="step_2">Step 2</p>
-              <p>Connect Wallet</p>
+              <p style={{color:' rgb(24 21 235)' , fontSize: 'large' }}>Connect Wallet</p>
             
             </Item>
           </Grid>
@@ -47,7 +47,7 @@ export default function AutoGrid() {
             <Item sx={{ bgcolor: "#62d9bd" }}>
               <img src={Trading} alt="step3" />
               <p className="step_3">Step 3</p>
-              <p>Start Trading</p>
+              <p style={{color:'rgb(126 4 141)' , fontSize: 'large' }}>Start Trading</p>
               {/* <p>
                 Connect with wallet, discover, buy Nfts, sell your Nfts and earn
                 money
@@ -58,7 +58,7 @@ export default function AutoGrid() {
             <Item sx={{ bgcolor: "#62d9bd" }}>
               <img src={Money} alt="step4" />
               <p className="step_4">Step 4</p>
-              <p>Earn Money</p>
+              <p style={{color:' rgb(173 7 227)' , fontSize: 'large' }}>Earn Money</p>
             
             </Item>
           </Grid>
