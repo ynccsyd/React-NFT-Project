@@ -4,17 +4,14 @@
     background-color: transparent;
     z-index: 100 !important;
 }
-
 header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-zxtyt4-MuiPaper-root-MuiAppBar-root {
     margin-top: 15vh;
     /* top: none; */
     z-index: 100 !important;
-
+    
 }
-
 header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-jzppkm-MuiPaper-root-MuiAppBar-root {
     background-color: transparent;
-    z-index: 100 !important;
 }
 
 
@@ -22,12 +19,10 @@ header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAp
     color: rgb(253, 156, 29);
     z-index: 100 !important;
 }
-
 .css-jzppkm-MuiPaper-root-MuiAppBar-root {
     top: auto !important;
     z-index: 100 !important;
 }
-
 div#nested-list-subheader {
     color: rgb(215, 243, 250);
     background: transparent;
@@ -40,15 +35,14 @@ div#nested-list-subheader {
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
     background-color: transparent;
     color: rgb(253, 156, 29);
-
-
+   
+    
 }
-
-.drawer-header {
-    background: rgb(105, 233, 205);
-    background: linear-gradient(94deg, rgb(7, 104, 214) 1%, rgba(222, 57, 190, 1) 36%, rgba(199, 138, 26, 1) 70%);
-
-    font-size: 55px;
+.drawer-header{
+    background: rgb(105,233,205);
+    background: linear-gradient(94deg, rgb(7, 104, 214) 1%, rgba(222,57,190,1) 36%, rgba(199,138,26,1) 70%);
+    
+    font-size: 45px;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color:transparent;
 }
