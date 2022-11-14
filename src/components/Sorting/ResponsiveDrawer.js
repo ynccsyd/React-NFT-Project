@@ -16,14 +16,13 @@ import MailIcon from "@mui/icons-material/Mail";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-// import Checkboxfilter from "./CheckBox"
-
 import ListSubheader from "@mui/material/ListSubheader";
-
 import { useEffect, useState } from "react";
 import "./Drawer.css";
 import ContainerNfts from "../ContainerNfts/ContainerNfts";
 import Filter from "./Filter";
+// import CheckButton from "./CheckButton"
+
 
 const drawerWidth = 300;
 
@@ -67,7 +66,7 @@ function ResponsiveDrawer(props) {
         }
       >
         <Filter />
-        {/* <Checkboxfilter/> */}
+       
       </List>
       <Divider />
       <List>
@@ -108,8 +107,8 @@ function ResponsiveDrawer(props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap component="div" >
-            Responsive drawer
+          <Typography variant="h6" noWrap component="div" className="drawer-header" >
+            Search & Filter Nfts
           </Typography>
         </Toolbar>
       </AppBar>
@@ -161,6 +160,7 @@ function ResponsiveDrawer(props) {
       >
         <Toolbar />
         <div>
+          {/* <CheckButton/> */}
           <ContainerNfts nfts={nfts} />
         </div>
       </Box>

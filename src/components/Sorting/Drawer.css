@@ -8,7 +8,14 @@ header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAp
     margin-top: 15vh;
     /* top: none; */
     z-index: 100 !important;
+    
 }
+header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-jzppkm-MuiPaper-root-MuiAppBar-root {
+    background-color: transparent;
+    z-index: 100 !important;
+}
+
+
 .MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters.MuiListItemButton-root.MuiListItemButton-gutters.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
     color: rgb(253, 156, 29);
     z-index: 100 !important;
@@ -31,4 +38,12 @@ div#nested-list-subheader {
     color: rgb(253, 156, 29);
    
     
+}
+.drawer-header{
+    background: rgb(105,233,205);
+    background: linear-gradient(94deg, rgb(7, 104, 214) 1%, rgba(222,57,190,1) 36%, rgba(199,138,26,1) 70%);
+    
+    font-size: 55px;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
 }
