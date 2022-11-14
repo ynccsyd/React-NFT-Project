@@ -1,6 +1,5 @@
-.wallet{
+.wallet {
     margin-top: 25vh;
-   
 }
 
 .wallet_1 {
@@ -8,18 +7,17 @@
     padding-right: 18rem;
     padding-bottom: 1rem;
 }
+
 .wallet_2 {
     padding-left: 22rem;
     padding-right: 22rem;
-   
+
 }
-
-
 
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1633um2-MuiPaper-root {
     background-color: transparent;
-    color:rgb(4, 184, 169);
+    color: rgb(4, 184, 169);
     font-size: 18px;
     cursor: pointer;
-   
+
 }

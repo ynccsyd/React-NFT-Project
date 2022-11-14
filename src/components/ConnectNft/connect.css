@@ -1,24 +1,24 @@
-.secondP{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
+.secondP {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     position: relative;
-    gap:3rem;  
-margin-left: 3rem;
-margin-right: 3rem;
- 
+    gap: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
 }
 
- 
+
 
 
 .n-button {
     flex: 1;
     color: rgb(62, 26, 221);
     background: rgb(212, 170, 188);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(199,148,233,1) 100%);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(199, 148, 233, 1) 100%);
     border-radius: 30px;
     border-color: antiquewhite;
-    height:5vh;
+    height: 5vh;
     font-size: 16px;
-   
+
 }

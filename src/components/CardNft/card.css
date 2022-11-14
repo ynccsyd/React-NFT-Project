@@ -21,7 +21,7 @@
 .nft-info-l{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* position: relative; */
+   
     
 }
 .nft-info-name{
@@ -43,5 +43,5 @@
     font-size: 18px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* position: relative; */
+   
 }

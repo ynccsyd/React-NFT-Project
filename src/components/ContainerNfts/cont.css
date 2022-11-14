@@ -1,9 +1,9 @@
-.nft-container{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-   position: relative;
-    gap:3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 2rem;
-  }
+.nft-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  gap: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
