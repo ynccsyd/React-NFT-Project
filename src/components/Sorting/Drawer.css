@@ -11,7 +11,8 @@ header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAp
     
 }
 header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-jzppkm-MuiPaper-root-MuiAppBar-root {
-    background-color: transparent;
+  background-color: transparent;
+ 
 }
 
 
@@ -35,6 +36,7 @@ div#nested-list-subheader {
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
     background-color: transparent;
     color: rgb(253, 156, 29);
+    
    
     
 }
