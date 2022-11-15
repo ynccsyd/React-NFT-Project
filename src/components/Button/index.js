@@ -4,15 +4,16 @@ import "./button.css"
 const Button = (props) => {
     const {btnType, btnText, bntOnClick, customClass}=props;
   return (
-    <div className={`${
-        btnType=== "PRIMARY"
-            ? `button primary-btn ${customClass}`
-            : `button secondary-btn ${customClass}`
-        }`}
-        onClick
+    <div
+      className={` ${
+        btnType === "PRIMARY"
+          ? `button primary-btn ${customClass}`
+          : `button secondary-btn ${customClass}`
+      }`}
+      onClick={bntOnClick}
     >
-        {btnText}
+      {btnText}
     </div>
-  )
-}
+  );
+};
 export default Button

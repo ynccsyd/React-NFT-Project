@@ -6,7 +6,6 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
-
 import { ethers } from "ethers";
 import { useState } from "react";
 
@@ -23,7 +22,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function AutoGrid() {
   const [account, setAccount] = useState("");
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
   const connect = async () => {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
