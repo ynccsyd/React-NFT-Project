@@ -11,7 +11,8 @@ header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAp
     
 }
 header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-jzppkm-MuiPaper-root-MuiAppBar-root {
-  background-color: transparent;
+  background: rgb(21,0,36);
+  background: linear-gradient(90deg, rgba(21,0,36,1) 0%, rgba(153,23,172,1) 43%, rgba(255,85,0,1) 100%);
  
 }
 
@@ -42,9 +43,9 @@ div#nested-list-subheader {
 }
 .drawer-header{
     background: rgb(105,233,205);
-    background: linear-gradient(94deg, rgb(7, 104, 214) 1%, rgba(222,57,190,1) 36%, rgba(199,138,26,1) 70%);
-    
-    font-size: 45px;
+    background: linear-gradient(94deg, rgb(186, 195, 206) 1%, rgba(222,57,190,1) 36%, rgba(199,138,26,1) 70%);
+   
+    font-size: 25px;
     background-clip: text;
     -webkit-text-fill-color:transparent;
 }

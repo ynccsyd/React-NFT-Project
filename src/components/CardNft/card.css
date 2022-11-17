@@ -11,10 +11,18 @@
     border-radius: 18px;
     padding: 10px;
    
+    
 }
+.content:hover .imgnft{
+   transform: scale(1.05);
+   border-radius:1rem ;
+ 
+}
+
+
 .imgnft{
    height: 300px;
-   
+   margin: auto;
    border-radius: 18px;
 
 }
@@ -26,10 +34,11 @@
 }
 .nft-info-name{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     color: aqua;
-    
-    
+    display: end;
+    padding-top: 0.5rem;
+   
 }
 .nft-info-r{
     flex: 1;
@@ -40,8 +49,16 @@
 }
 .price-tag{
     color:antiquewhite;
-    font-size: 18px;
+    font-size: 16px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-   
+   padding-top: 0.5rem;
+   margin: auto;
+}
+.date{
+    color:antiquewhite;
+    margin: auto;
+    display: end;
+    font-size: 12px;
+    text-align: center;
 }
