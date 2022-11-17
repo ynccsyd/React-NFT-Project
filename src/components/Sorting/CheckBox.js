@@ -36,3 +36,4 @@ export default function CheckboxesTags({nftFilter }) {
 }
 
 // Top 100 films as rated by IMDb users. http://www.imdb.com/chart/top
+// auto box
