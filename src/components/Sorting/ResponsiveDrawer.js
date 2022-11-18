@@ -50,9 +50,9 @@ function ResponsiveDrawer(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex" }}>
-      <CssBaseline />
-      <AppBar
+    <Box  sx={{ display: "flex" }}>
+      <CssBaseline  />
+      <AppBar className="head-d"
         position="fixed"
         sx={{
           width: { sm: `calc(100% - ${drawerWidth}px)` },

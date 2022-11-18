@@ -10,7 +10,7 @@ header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAp
     z-index: 100 !important;
     
 }
-header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-jzppkm-MuiPaper-root-MuiAppBar-root {
+.head-d {
   background: rgb(21,0,36);
   background: linear-gradient(90deg, rgba(21,0,36,1) 0%, rgba(153,23,172,1) 43%, rgba(255,85,0,1) 100%);
  
@@ -37,6 +37,7 @@ div#nested-list-subheader {
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
     background-color: transparent;
     color: rgb(253, 156, 29);
+    
     
    
     
