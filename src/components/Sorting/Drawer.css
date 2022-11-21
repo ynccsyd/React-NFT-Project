@@ -4,12 +4,10 @@
     background-color: transparent;
     z-index: 100 !important;
 }
-header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-zxtyt4-MuiPaper-root-MuiAppBar-root {
-    margin-top: 15vh;
-    /* top: none; */
-    z-index: 100 !important;
-    
-}
+
+
+
+
 .head-d {
   background: rgb(21,0,36);
   background: linear-gradient(90deg, rgba(21,0,36,1) 0%, rgba(153,23,172,1) 43%, rgba(255,85,0,1) 100%);
