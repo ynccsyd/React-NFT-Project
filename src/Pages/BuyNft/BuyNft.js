@@ -43,7 +43,10 @@ const BuyNft = () => {
           Connect
         </button>
       </div> */}
-      <ResponsiveDrawer/>
+      <div>
+        <ResponsiveDrawer/>
+      </div>
+      
  
     </div>
   )
