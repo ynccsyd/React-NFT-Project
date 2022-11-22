@@ -7,17 +7,18 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
+import "./Drawer.css"
 
 export default function SimpleAccordion() {
   return (
-    <div>
-      <Accordion>
-        <AccordionSummary
+    <div >
+      <Accordion >
+        <AccordionSummary 
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Background</Typography>
+          <Typography >Background</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <FormGroup>

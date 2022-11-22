@@ -1,22 +1,26 @@
 .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
-    top: auto;
+    top: 15vh;
     color: rgb(240, 215, 250);
     background-color: transparent;
     z-index: 100 !important;
 }
 
 
-.css-k008qs {
+/* header.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation4.MuiAppBar-root.MuiAppBar-colorPrimary.MuiAppBar-positionFixed.mui-fixed.css-zxtyt4-MuiPaper-root-MuiAppBar-root {
     margin-top: 15vh;
     /* top: none; */
-    z-index: 100 !important;
+    /* z-index: 100 !important; */
     
-}
+
+ .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+        background-color: transparent;
+        color: rgb(253, 156, 29);
+ }
 
 .head-d {
   background: rgb(21,0,36);
   background: linear-gradient(90deg, rgba(21,0,36,1) 0%, rgba(153,23,172,1) 43%, rgba(255,85,0,1) 100%);
- 
+ top:30vh;
 }
 
 
@@ -37,7 +41,7 @@ div#nested-list-subheader {
 /*hj*/
 
 
-.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+.filter-color {
     background-color: transparent;
     color: rgb(253, 156, 29);
     
@@ -48,7 +52,7 @@ div#nested-list-subheader {
 .drawer-header{
     background: rgb(105,233,205);
     background: linear-gradient(94deg, rgb(186, 195, 206) 1%, rgba(222,57,190,1) 36%, rgba(199,138,26,1) 70%);
-   
+
     font-size: 25px;
     background-clip: text;
     -webkit-text-fill-color:transparent;

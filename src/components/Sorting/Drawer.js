@@ -16,11 +16,11 @@ import Filter from "./Filter";
 
 export default function MyDrawer  () {
   return (
-    <div>
+    <div >
       <Toolbar />
       <Divider />
 
-      <List
+      <List 
         sx={{ width: "100%", maxWidth: 360 }}
         component="nav"
         aria-labelledby="nested-list-subheader"
@@ -31,7 +31,7 @@ export default function MyDrawer  () {
         }
       >
         
-        <Filter />
+        <Filter/>
        
       </List>
       <Divider />

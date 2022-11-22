@@ -50,7 +50,7 @@ function ResponsiveDrawer(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box  sx={{ display: "flex" }}>
+    <Box  sx={{ display: "flex" }}  >
       <CssBaseline  />
       <AppBar className="head-d"
         position="fixed"
@@ -85,7 +85,7 @@ function ResponsiveDrawer(props) {
         aria-label="mailbox folders"
       >
         {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
-        <Drawer
+        <Drawer 
           container={container}
           variant="temporary"
           open={mobileOpen}
