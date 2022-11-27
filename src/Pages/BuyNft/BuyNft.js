@@ -17,7 +17,7 @@ const BuyNft = () => {
   //     // console.log('MetaMask is installed!');
   //     const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
   //     setAddress(accounts[0])
-      
+
   //   }
 
   // }
@@ -27,8 +27,7 @@ const BuyNft = () => {
   //     const data= await response.json()
   //     setNfts(data.items);
   //     console.log(data)
-   
-     
+
   //  }
 
   // useEffect(()=>{
@@ -37,20 +36,13 @@ const BuyNft = () => {
 
   return (
     <div>
-      <MyNavbar/>
-      {/* <div>
-        <button className="n-button"  onClick={ConnectWallet}>
-          Connect
-        </button>
-      </div> */}
+      <MyNavbar />
       <div>
-        <ResponsiveDrawer/>
+        <ResponsiveDrawer />
       </div>
-      
- 
     </div>
-  )
-}
+  );
+};
 
-export default BuyNft
+export default BuyNft;
 
