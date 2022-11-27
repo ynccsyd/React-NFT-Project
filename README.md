@@ -18,9 +18,9 @@ npm install react-scroll
 npm install typewriter-effect
 npm install react-router-dom@5.2.0
 npm install react-owl-carousel
-npm react-icons
-npm ethers
-npm mdb-react-ui-kit
+npm install react-icons
+npm install ethers
+npm install mdb-react-ui-kit
 npm start
 ```
 
